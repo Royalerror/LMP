@@ -9,9 +9,9 @@ Pour acceder au site en local il faut utiliser une plate-forme web comme **WAMP*
 -   (MAC) [MAMP](https://www.mamp.info/en/downloads/)
 -   (WINDOWS) [WAMP](https://www.wampserver.com/)
 
-Une fois le logiciel installer, [téléchargez](https://github.com/pagesti-dev/LMP/archive/master.zip) le dossier depuis cette page.
+Une fois le logiciel installer, [téléchargez](https://github.com/pagesti-dev/LMP/archive/master.zip) le dossier archivé depuis cette page.
 
-Déplacez le dossier dans le dossier d'utilisation du logiciel :
+Dézippez et déplacez le dossier dans le dossier d'utilisation du logiciel :
 
 -   MAMP : `Drive⁩ ▸ ⁨Applications⁩ ▸ ⁨MAMP ▸ htdocs⁩`
 -   WAMP : `c:\wamp\www⁩`
