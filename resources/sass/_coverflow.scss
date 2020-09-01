@@ -1,0 +1,90 @@
+.coverflow {
+    display: flex;
+    justify-content: center;
+    z-index: 99;
+
+    .element {
+        position: relative;
+        margin: 1rem;
+        box-shadow: 0px 3px 6px #00000022;
+        transition: all 0.3s ease-in-out;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        a {
+            color: $black;
+        }
+
+        &.z0 {
+            color: $white;
+            z-index: 4;
+
+            a {
+                color: $white;
+            }
+        }
+
+        &.z1 {
+            background-color: $white;
+            transform: scale(0.9);
+            margin: 1rem -3rem;
+            z-index: 3;
+
+            * {
+                opacity: 0.75;
+            }
+        }
+
+        &.z2 {
+            background-color: $white;
+            transform: scale(0.8);
+            margin: 1rem -2rem;
+            z-index: 2;
+
+            * {
+                opacity: 0.5;
+            }
+        }
+
+        &.z3 {
+            background-color: $white;
+            transform: scale(0.7);
+            margin: 1rem -5rem;
+            z-index: 1;
+
+            * {
+                opacity: 0.25;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .coverflow {
+        position: relative;
+        overflow: hidden;
+
+        .element {
+            flex: 100%;
+            flex-shrink: 0;
+            flex-basis: 75%;
+
+            &.z2,
+            &.z3,
+            &.z4 {
+                display: none !important;
+            }
+
+            &.fake {
+                background-color: inherit;
+                box-shadow: none;
+
+                h2 {
+                    color: transparent !important;
+                }
+            }
+        }
+    }
+}

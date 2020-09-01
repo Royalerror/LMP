@@ -1,0 +1,99 @@
+.circle {
+    width: 48px;
+    height: 48px;
+    line-height: 49px;
+    border-radius: 50%;
+    color: #fff;
+    max-height: 50px;
+    z-index: 2;
+}
+
+.how-it-works.row .col-2 {
+    align-self: stretch;
+
+    &::after {
+        content: "";
+        position: absolute;
+        border-left: 3px solid $gray;
+        z-index: 1;
+    }
+
+    &.bottom::after {
+        height: 50%;
+        left: calc(50% - 2px);
+        top: 50%;
+    }
+
+    &.full::after {
+        height: 100%;
+        left: calc(50% - 3px);
+    }
+
+    &.top::after {
+        height: 50%;
+        left: calc(50% - 2px);
+        top: 0;
+    }
+}
+
+.timeline {
+    div {
+        padding: 0;
+        height: 40px;
+    }
+
+    hr {
+        border-top: 3px solid $gray;
+        margin: 0;
+        top: 17px;
+        position: relative;
+    }
+
+    .col-2 {
+        display: flex;
+        overflow: hidden;
+
+        .straight {
+            position: relative;
+            width: 100%;
+
+            &.left {
+                border-left: 3px solid $gray;
+                left: calc(50% - 2px);
+            }
+
+            &.right {
+                border-right: 3px solid $gray;
+                right: 50%;
+            }
+        }
+
+        .corner {
+            border: 3px solid $gray;
+            width: 100%;
+            position: relative;
+            border-radius: 15px;
+
+            &.top-right {
+                left: calc(50% - 2px);
+                top: -50%;
+            }
+
+            &.left-bottom {
+                left: calc(-50% + 2px);
+                top: calc(50% - 3px);
+            }
+
+            &.top-left {
+                left: calc(-50% + 2px);
+                top: -50%;
+            }
+
+            &.right-bottom {
+                left: calc(50% - 2px);
+                top: calc(50% - 3px);
+            }
+        }
+    }
+
+}

@@ -1,0 +1,78 @@
+// HEADING
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    &.quote {
+        font-weight: 300;
+        font-family: $font-family-heading-2;
+    }
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: $font-family-heading-1;
+}
+
+h1,
+h2 {
+    font-weight: 700;
+}
+
+h3 {
+    font-weight: 600;
+}
+
+h4 {
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3.3rem;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+h4 {
+    font-size: 1.3rem;
+}
+
+.navbar {
+
+    .dropdown-item,
+    .nav-link {
+        font-size: 10pt;
+        font-weight: 900;
+    }
+}
+
+// BODY
+body {
+    font-size: .9rem;
+}
+
+.body {
+    &.large {
+        font-weight: 900;
+    }
+
+    &.small {
+        font-size: 0.8rem;
+    }
+
+    &.placeholder {
+        font-size: 0.8rem;
+        font-style: italic;
+        color: $gray;
+    }
+}

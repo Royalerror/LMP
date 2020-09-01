@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="44" height="44" viewBox="0 0 44 44">
+  <g id="Groupe_420" data-name="Groupe 420" transform="translate(-819 -617)">
+    <circle id="Ellipse_14" data-name="Ellipse 14" cx="22" cy="22" r="22" transform="translate(819 617)" fill="#4f9687"/>
+    <g id="Groupe_351" data-name="Groupe 351" transform="translate(-39 43)">
+      <g id="Icon_ionic-ios-school" data-name="Icon ionic-ios-school" transform="translate(870.55 587.5)">
+        <path id="Tracé_243" data-name="Tracé 243" d="M6.813,18.778V22.69a.342.342,0,0,0,.169.3l5.57,3.2a.338.338,0,0,0,.506-.3V21.935a.342.342,0,0,0-.169-.3L7.32,18.479A.344.344,0,0,0,6.813,18.778Z" transform="translate(-4.115 -10.031)" fill="#fff"/>
+        <path id="Tracé_244" data-name="Tracé 244" d="M19.416,26.161l5.574-3.2a.337.337,0,0,0,.169-.3V18.709a.339.339,0,0,0-.506-.3l-5.57,3.2a.337.337,0,0,0-.169.3V25.87A.334.334,0,0,0,19.416,26.161Z" transform="translate(-8.953 -10.004)" fill="#fff"/>
+        <path id="Tracé_245" data-name="Tracé 245" d="M11.433,4.518,2.488,9.742a.337.337,0,0,0,0,.587L11.433,15.3a.679.679,0,0,0,.671,0l7.937-4.545c.224-.131.3.034.3.3v6.473c0,.287.165.422.464.422h0a.416.416,0,0,0,.422-.422V10.274a.342.342,0,0,0-.169-.3L12.1,4.518A.679.679,0,0,0,11.433,4.518Z" transform="translate(-2.317 -4.43)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

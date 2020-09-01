@@ -1,0 +1,47 @@
+$blue: #338791;
+$red: #CC6687;
+$orange-light:#FCEEE9;
+$orange:#F2C1B0;
+$green:#4F9687;
+$white:#ffffff;
+$gray: #7A7A7A;
+$black:#000000;
+
+$colors: ("blue": $blue,
+    "red": $red,
+    "orange-light": $orange-light,
+    "orange": $orange,
+    "green": $green,
+    "white": $white,
+    "gray": $gray,
+    "black": $black) !default;
+
+
+@each $color,
+$code in $colors {
+    .text-#{$color} {
+        color: $code !important;
+    }
+
+    .bg-#{$color} {
+        background-color: $code;
+    }
+
+    .card.bg-#{$color} {
+        background-color: $code;
+    }
+
+    .btn.btn-#{$color} {
+        background-color: $code;
+        color: $white;
+
+        &:hover {
+            background-color: darken($code, 10%);
+            color: $white;
+        }
+    }
+
+    .circle.circle-#{$color} {
+        background-color: $code;
+    }
+}
