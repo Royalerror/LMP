@@ -2,7 +2,7 @@
 
 ## Comment installer
 
-### MAMP uo WAMP ou XAMP
+### MAMP, WAMP ou XAMP
 
 Pour acceder au site en local il faut utiliser une plate-forme web comme **WAMP** ou **MAMP**.
 
