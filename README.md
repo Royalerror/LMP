@@ -16,4 +16,4 @@ Déplacez le dossier dans le dossier d'utilisation du logiciel :
 -   MAMP : `Drive⁩ ▸ ⁨Applications⁩ ▸ ⁨MAMP ▸ htdocs⁩`
 -   WAMP : `c:\wamp\www⁩`
 
-Accéder au site depuis [localhost](http://localhost/LMP-master/public).
+Accéder au site depuis [localhost](http://localhost:8888/LMP-master/public).
